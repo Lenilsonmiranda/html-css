@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfil Pessoal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .card-header {
+      background-color: #4e54c8;
+      height: 120px;
+      position: relative;
+    }
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #f5f5f5;
+      border: 5px solid #fff;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      color: #999;
+    }
+    .card-body {
+      padding: 60px 20px 20px;
+    }
+    .name {
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 5px;
+    }
+    .title {
+      font-size: 16px;
+      color: #6c757d;
+      margin-bottom: 15px;
+    }
+    .bio {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .social-list {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .social-item {
+      width: 40px;
+      height: 40px;
+      background-color: #eee;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .social-item:hover {
+      background-color: #4e54c8;
+      color: #fff;
+    }
+    .contact-btn {
+      display: block;
+      background-color: #4e54c8;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 0;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+    .contact-btn:hover {
+      background-color: #3a40a5;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">
+      <div class="profile-img">👤</div>
+    </div>
+    <div class="card-body">
+      <h1 class="name">olá me chamo Lenilson miranda dos prazeres</h1>
+      <h2 class="title">Desenvolvedor Web</h2>
+      <p class="bio">Olá!, Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis.</p>
+      <ul class="social-list">
+        <li class="social-item">🔗</li>
+        <li class="social-item">🐦</li>
+        <li class="social-item">📸</li>
+      </ul>
+      <button class="contact-btn">contato</button>
+      
+  </div>
+</body>
+</html>
