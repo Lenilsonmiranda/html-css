@@ -50,3 +50,4 @@ public class FrequenciaDAO {
         return lista;
     }
 }
+sss
